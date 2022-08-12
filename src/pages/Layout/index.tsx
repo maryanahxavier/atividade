@@ -1,4 +1,4 @@
-import { MenuComponent, RodapeComponent } from "components";
+import { MenuComponent, } from "components";
 import React from "react";
 import { Outlet } from "react-router-dom";
 import * as S from "./styles";
@@ -10,7 +10,7 @@ const Layout = () => {
       <main>
         <Outlet />
       </main>
-      <RodapeComponent />
+
     </S.Layout>
   );
 };
