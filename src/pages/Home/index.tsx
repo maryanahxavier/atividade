@@ -10,9 +10,7 @@ const Home = () => {
       <picture>
         <img src={capa} alt="Imagens principais" />
       </picture>
-      <aside>
-        {dados && dados.map((item) => <CardComponent dados={item} />)}
-      </aside>
+
     </S.Home>
   );
 };
