@@ -1,16 +1,17 @@
 import React from "react";
-import capa from "assets/img/image2.png";
+
+import Sol from "assets/img/Sol.png"
 import * as S from "./styles";
 import { CardComponent } from "components";
 import dados from "services/dados";
+
 
 const Home = () => {
   return (
     <S.Home>
       <picture>
-        <img src={capa} alt="Imagens principais" />
+        <img src={Sol} alt="Imagens principais" />
       </picture>
-
     </S.Home>
   );
 };

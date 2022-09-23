@@ -3,11 +3,13 @@ import { FcReuse } from "react-icons/fc";
 import * as S from "./styles";
 import { Link } from "react-router-dom";
 
+
 const Menu = () => {
   return (
     <S.Cabecalho>
       <picture>
         <Link to="/">
+         
           <FcReuse />
         </Link>
       </picture>
