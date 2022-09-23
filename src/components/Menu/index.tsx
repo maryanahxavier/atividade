@@ -9,8 +9,8 @@ const Menu = () => {
     <S.Cabecalho>
       <picture>
         <Link to="/">
+          
          
-          <FcReuse />
         </Link>
       </picture>
       <nav>
