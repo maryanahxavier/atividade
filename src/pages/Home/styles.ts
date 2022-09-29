@@ -11,8 +11,8 @@ export const Home = styled.section`
   picture > img {
     width: 100%;
   }
-  picture img.entrar{
-   width: 20%;
+  picture a img.entrar{
+   width: 60%;
 
   
   }
