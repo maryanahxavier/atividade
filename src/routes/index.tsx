@@ -1,6 +1,12 @@
-import React from "react"
+import React from "react";
 import { Routes, Route } from "react-router-dom";
-import { AdmPage, CadastrarPage, HomePage, LayoutPage, LoginPage } from "pages";
+import {
+  AdmHorizontePage,
+  CadastrarPage,
+  HomePage,
+  LayoutPage,
+  LoginPage
+} from "pages";
 import ProtectedRoute from "./ProtectedRoute";
 const Rotas = () => {
   return (
@@ -9,8 +15,9 @@ const Rotas = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/cadastrar" element={<CadastrarPage />} />
         <Route path="/login" element={<LoginPage />} />
-        <Route element={<ProtectedRoute />}>
-          <Route path="/adm" element={<AdmPage />} />
+        <Route path="/adm" element={<ProtectedRoute />}>
+          <Route path="message" element={<AdmHorizontePage />} />
+          <Route path="message/:id" element={<AdmHorizonteStorePage />} />
         </Route>
       </Route>
     </Routes>
@@ -18,3 +25,4 @@ const Rotas = () => {
 };
 
 export default Rotas;
+Footer
