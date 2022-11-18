@@ -1,2 +1,2 @@
-export { default as AdmMessagePage } from "./Horizonte"
-export { default as AdmMessageStorePage } from "./Horizonte/store"
+export { default as AdmPaisagemPage } from "./Paisagem"
+export { default as AdmPaisagemStorePage } from "./Paisagem/store"

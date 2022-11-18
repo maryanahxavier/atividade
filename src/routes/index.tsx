@@ -1,7 +1,8 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import {
-  AdmHorizontePage,
+  AdmPaisagemPage,
+  AdmPaisagemStorePage,
   CadastrarPage,
   HomePage,
   LayoutPage,
@@ -16,8 +17,8 @@ const Rotas = () => {
         <Route path="/cadastrar" element={<CadastrarPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/adm" element={<ProtectedRoute />}>
-          <Route path="message" element={<AdmHorizontePage />} />
-          <Route path="message/:id" element={<AdmHorizonteStorePage />} />
+          <Route path="message" element={<AdmPaisagemPage />} />
+          <Route path="message/:id" element={<AdmPaisagemStorePage />} />
         </Route>
       </Route>
     </Routes>
@@ -25,4 +26,4 @@ const Rotas = () => {
 };
 
 export default Rotas;
-Footer
+
