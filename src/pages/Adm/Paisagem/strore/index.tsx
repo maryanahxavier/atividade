@@ -17,7 +17,7 @@ const PaisagemStore = () => {
     foto: '',
     nome: '',
     local:'',
-   
+    
   })
   const { id } = useParams<{ id: string }>();
 

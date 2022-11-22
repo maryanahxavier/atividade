@@ -70,11 +70,9 @@ const AdmPaisagem = () => {
             <table>
               <thead>
                 <tr>
-                  <th>Nome</th>
-                  <th>Título</th>
-                  <th>Mensagem</th>
-                  <th>Editar</th>
-                  <th>Remover</th>
+                  <th>foto</th>
+                  <th>nome</th>
+                  <th>local</th>
                 </tr>
               </thead>
               <tbody>
@@ -84,7 +82,7 @@ const AdmPaisagem = () => {
                       <td>{item.foto}</td>
                       <td>{item.nome}</td>
                       <td>{item.local}</td>
-                      <td>{item.}</td>
+                      
                       <td>
                         <ButtonComponent
                           type="button"

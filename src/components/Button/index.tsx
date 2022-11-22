@@ -1,3 +1,4 @@
+import React from "react";
 import * as S from "./styles";
 import { IButton } from "interfaces/button.interface";
 
@@ -6,3 +7,4 @@ const Button = ({ children, bgColor, onClick }: IButton) => {
 };
 
 export default Button;
+
